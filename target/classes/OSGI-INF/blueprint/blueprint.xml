@@ -6,7 +6,7 @@
              http://camel.apache.org/schema/blueprint/cxf http://camel.apache.org/schema/blueprint/cxf/camel-cxf.xsd
              http://camel.apache.org/schema/blueprint http://camel.apache.org/schema/blueprint/camel-blueprint.xsd">
 
-    <cxf:cxfEndpoint id="CXFTest" address="/soap/learn" endpointName="a:SOATestEndpoint"
+    <cxf:cxfEndpoint id="CXFTest" address="http://localhost:9101/cxf/soap/learn" endpointName="a:SOATestEndpoint"
                      serviceName="a:SOATestEndpointService" wsdlURL="wsdl/test.wsdl" serviceClass="org.redhat.SOATestEndpoint"
                      xmlns:a="http://redhat.org" />
     <bean id="cxfwsRoute" class="org.redhat.fusesource.CamelR"/>
