@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1637127187096
+Build-Jdk: 1.8.0_282
+Built-By: shchavan
+Bundle-Description: Example for Camel Cxf for webservices
+Bundle-ManifestVersion: 2
+Bundle-Name: Fuse :: Karaf :: Camel :: CXFWS
+Bundle-SymbolicName: org.redhat.fusesource.example.camel-cxfws
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.redhat;uses:="javax.xml.bind.annotation,javax.jws.so
+ ap,javax.jws,javax.xml.namespace,javax.xml.ws";version="1.0.0.SNAPSHOT"
+ ,org.redhat.fusesource;uses:="org.apache.camel,org.redhat,org.apache.ca
+ mel.builder,org.apache.camel.model";version="1.0.0.SNAPSHOT"
+Import-Package: javax.jws;version="[2.1,3)",javax.jws.soap;version="[2.1
+ ,3)",javax.xml.bind.annotation;version="[2.3,3)",javax.xml.namespace,ja
+ vax.xml.ws;version="[2.3,3)",org.apache.camel;version="[2.23,3)",org.ap
+ ache.camel.builder;version="[2.23,3)",org.apache.camel.model;version="[
+ 2.23,3)",org.osgi.service.blueprint;version="[1.0.0,2.0.0)"
+Tool: Bnd-1.50.0
